@@ -8,6 +8,9 @@ button{
 }
 body{
     background-color: #222;
+    color: #fff;
+    font-family: system-ui;
+    cursor: pointer;
 }
 
 
