@@ -7,7 +7,7 @@ function ShowHide() {
     }
     return (
         <div>
-            <button onClick={handleClick}>Hide Text</button>
+            <button onClick={handleClick}>{ show ? "Hide " : "show "} text</button>
             {show && <h2>HIDE ME!</h2>}
         </div>
     )
